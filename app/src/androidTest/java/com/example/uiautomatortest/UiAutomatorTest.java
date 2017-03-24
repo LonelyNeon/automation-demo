@@ -88,16 +88,18 @@ public class UiAutomatorTest {
 
         cover.click();
         //SystemClock.sleep(10000);
-        mDevice.wait(Until.findObject(By.res(BASIC_SAMPLE_PACKAGE,"layout_main_coordinator")),20000);
+        mDevice.wait(Until.findObject(By.res(BASIC_SAMPLE_PACKAGE,"view_blur_background")),20000);
 
         UiObject detailView = mDevice.findObject(new UiSelector()
-                .resourceId("com.skysoft.kkbox.android:id/layout_main_coordinator"));
+                .resourceId("com.skysoft.kkbox.android:id/view_blur_background"));
 
         assertTrue(detailView.exists());
 
         SystemClock.sleep(5000);
         UiObject back = mDevice.findObject(backSelector);
         back.click();
+
+        assertTrue(checkReturnToDiscovery());
     }
 
     @Test
@@ -120,16 +122,18 @@ public class UiAutomatorTest {
 
         layoutRating.click();
         //SystemClock.sleep(10000);
-        mDevice.wait(Until.findObject(By.res(BASIC_SAMPLE_PACKAGE,"layout_main_coordinator")),20000);
+        mDevice.wait(Until.findObject(By.res(BASIC_SAMPLE_PACKAGE,"view_blur_background")),20000);
 
         UiObject detailView = mDevice.findObject(new UiSelector()
-                .resourceId("com.skysoft.kkbox.android:id/layout_main_coordinator"));
+                .resourceId("com.skysoft.kkbox.android:id/view_blur_background"));
 
         assertTrue(detailView.exists());
 
         SystemClock.sleep(5000);
         UiObject back = mDevice.findObject(backSelector);
         back.click();
+
+        assertTrue(checkReturnToDiscovery());
     }
 
     @Test
@@ -183,10 +187,10 @@ public class UiAutomatorTest {
         assertTrue(layoutView.exists());
         layoutView.click();
 
-        mDevice.wait(Until.findObject(By.res(BASIC_SAMPLE_PACKAGE,"layout_main_coordinator")),20000);
+        mDevice.wait(Until.findObject(By.res(BASIC_SAMPLE_PACKAGE,"view_blur_background")),20000);
 
         UiObject detailView = mDevice.findObject(new UiSelector()
-                .resourceId("com.skysoft.kkbox.android:id/layout_main_coordinator"));
+                .resourceId("com.skysoft.kkbox.android:id/view_blur_background"));
 
         assertTrue(detailView.exists());
 
@@ -197,5 +201,104 @@ public class UiAutomatorTest {
         back.click();
         back.click();
 
+        assertTrue(checkReturnToDiscovery());
+
     }
+
+    @Test
+    public void trackLayoutTest() throws UiObjectNotFoundException {
+        //com.skysoft.kkbox.android:id/button_overflow
+
+        UiObject searchIcon = mDevice.findObject(new UiSelector()
+                .resourceId("com.skysoft.kkbox.android:id/menu_global_search")
+                .description("Search"));
+
+        searchIcon.click();
+        //SystemClock.sleep(20000);
+
+
+        mDevice.wait(Until.findObject(By.res(BASIC_SAMPLE_PACKAGE,"search_bar")),20000);
+
+        UiObject layoutTrackMoreAction = mDevice.findObject(new UiSelector()
+                .resourceId("com.skysoft.kkbox.android:id/button_overflow"));
+
+        assertTrue(layoutTrackMoreAction.exists());
+
+        layoutTrackMoreAction.click();
+
+        mDevice.wait(Until.findObject(By.res(BASIC_SAMPLE_PACKAGE, "button_cancel")),20000);
+        //android:id/content
+        UiObject contentLayout = mDevice.findObject(new UiSelector()
+                                    .resourceId("android:id/content"));
+
+        assertTrue(contentLayout.exists());
+        //com.skysoft.kkbox.android:id/button_cancel
+
+        UiObject cancelButton = mDevice.findObject(new UiSelector()
+                .resourceId("com.skysoft.kkbox.android:id/button_cancel"));
+
+        assertTrue(cancelButton.exists());
+
+        cancelButton.click();
+
+        UiObject back = mDevice.findObject(backSelector);
+        back.click();
+
+        assertTrue(checkReturnToDiscovery());
+
+
+    }
+
+    @Test
+    public void discoveryGenreAndMoodTest() throws UiObjectNotFoundException {
+        UiObject genreTab = mDevice.findObject(new UiSelector()
+                .textContains("GENRE")
+                .className("android.widget.TextView"));
+
+        assertTrue(genreTab.exists());
+        genreTab.click();
+
+        UiObject categoryCard = mDevice.findObject(new UiSelector()
+                .resourceId("com.skysoft.kkbox.android:id/mih_category_card1"));
+
+        assertTrue(categoryCard.exists());
+
+        categoryCard.click();
+
+        mDevice.wait(Until.findObject(By.res(BASIC_SAMPLE_PACKAGE,"collapsing_toolbar")), 20000);
+
+        UiObject collapsingToolbar = mDevice.findObject(new UiSelector()
+                                        .resourceId("com.skysoft.kkbox.android:id/collapsing_toolbar"));
+
+        assertTrue(collapsingToolbar.exists());
+
+        SystemClock.sleep(5000);
+        UiObject toolbar = mDevice.findObject(new UiSelector()
+                            .resourceId("com.skysoft.kkbox.android:id/toolbar"));
+
+        assertTrue(toolbar.exists());
+
+        UiObject back = toolbar.getChild(new UiSelector().index(0));
+        back.click();
+
+        assertTrue(checkReturnToDiscovery());
+    }
+
+
+    private boolean checkReturnToDiscovery() throws UiObjectNotFoundException {
+        //com.skysoft.kkbox.android:id/discover_content_layout
+
+        mDevice.wait(Until.findObject(By.res(BASIC_SAMPLE_PACKAGE, "discover_content_layout")),20000);
+        UiObject discoveryLayout = mDevice.findObject(new UiSelector()
+                .resourceId("com.skysoft.kkbox.android:id/discover_content_layout"));
+
+        if (discoveryLayout.exists()){
+            return true;
+        } else {
+            return false;
+        }
+
+
+    }
+
 }
