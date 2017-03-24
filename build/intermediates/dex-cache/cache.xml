@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\a99bf448711d2ebbc42d5e6039d8b14cb63a687e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\classes_6ce1f407f1fe78dd13d581055bf4791b8e1fd188.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\3c67f2c9d858af67b6e0261642b60e0b96d3da3e\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_53c28911cbe70b36bd6b289b88860e1c49c8c313.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\hamcrest-integration-1.3_e168638bc85d5d5a6c7712246da8e70d9b51ef74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\hamcrest-core-1.3_34cb5305e59a4c1468b2a509ba46801f5bafbb2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\72c9cd115cdd3a854ada9041ce8fee1b4c19cdd9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\classes_68aeb3914e4b101945a6738d7d56e68ae36f3f70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\010c78b535ee26a33bca77249023fd713f4a1258\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\classes_bcf36e62ba45854be3dfb6173201553f4a0de796.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\7f472a808bdfed321a33535441585c76521dd664\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\classes_790b476b8a08b24a8c517d8428ace223b53805d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.1.1\67ff45d9ae02e583d0f9b3432a5ebbe05c30c966\javawriter-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\javawriter-2.1.1_346ba2a12179297c6c0a26198fbd88f10d006b7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\e7b2782e9ecb8c4d7221cb5c26569447b6a2d703\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f9237f11d42e51a2cde66c1da29d6673f284dba6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\475ebf71c2ba3a04ec65a9484adea625c0cbf8ec\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_080e1e0188d97f073cda30a7190d706f2332ba07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\a99bf448711d2ebbc42d5e6039d8b14cb63a687e\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f62601b0a525bf0769b2a3fd8097516d5dedcac0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\6f8fd0864c9d781f3e011f9a7662e632cc87ba1f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\classes_9403cb5918a2bf505c13912dc3408c0457b62442.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\junit-4.12_7b6051798b5bd65e46d5f236344f694b95d47a67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\5ffca9bc86016e455e5c0561779a9e89ea381d4c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9ebd18603c0013727799e7ed41bcb42f3df75c0">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\classes_76b7a8953c3110b8c01326a81aeb0bde3bedaf8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\javax.inject-1_5e4de4e278c7d3efa0865e5f57756d1d72446e79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\1e72b67608f203901bb563a87f5ea730abc3216f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\classes_380173f260a7febf2d7f2f022e8a40e39c2b333d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_a45405e82f9eb237681c9cf66b4eb54d7b88c9f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\jsr305-2.0.1_317e1a23d97b20d815a7631f5824981904778cd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\3275368accd6bcac5df40a966d0a90a018dd2d46\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\classes_4ca2c181fdebafee7c3bf944d1c210936bbcf497.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\e7b2782e9ecb8c4d7221cb5c26569447b6a2d703\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\classes_e42063e58536f7923b4ecf1a54629d5b9cba3738.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\d41d34414014dc93809b4b6691b606da82181198\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\classes_eeee9e4f5462f55e07c654a24bb9d0f969fffaad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\72c9cd115cdd3a854ada9041ce8fee1b4c19cdd9\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_31c1eb9b77851d321295004e3d3e740c4ba3cd98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.2\479c1e06db31c432330183f5cae684163f186146\javax.annotation-api-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\javax.annotation-api-1.2_60c6074fa163befa488c4dd3b8bd01da4b8d0f35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\3a1ca68e9298454b49bcf9db819fe0d4c4b8b152\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\classes_8f7ccf7ce19f90231769a9f9dea2e10308828986.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\3c67f2c9d858af67b6e0261642b60e0b96d3da3e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\classes_4b57f89e9910e2afeb71bb01f3d02e5c5b567354.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\475ebf71c2ba3a04ec65a9484adea625c0cbf8ec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\classes_fc9e45d6ca8589fe211c9343127dfa1296276c7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\hamcrest-library-1.3_28273f13927e35b19f6866af05c01e82e0c365fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\0d85ab210f412008d83e9557e08c67256c2875f5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\debug\classes_df43bb3eb904239de2f640ed99a9315bcd6d3d71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\LonelyNeon\.android\build-cache\bc6ede1153d2786119be17d088841348f2753e55\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="D:\AndroidStudioProjects\UiAutomatorTest\app\build\intermediates\pre-dexed\androidTest\debug\classes_b72716aa9e38e017793f9ce1dde55acc264e8fdb.jar" />
+    </item>
+
+</items>
