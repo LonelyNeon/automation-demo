@@ -16,6 +16,7 @@ import android.support.test.uiautomator.Until;
 import android.util.Log;
 
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -36,6 +37,9 @@ public class UiAutomatorTest {
     private UiDevice mDevice;
     private static final String LOGTAG = "UiAutomator";
     private UiSelector backSelector = new UiSelector().description("Navigate up");
+    private boolean startFromHome = false;
+
+
 
     @Before
     public void startActivityFromHomeScreen()
@@ -66,6 +70,7 @@ public class UiAutomatorTest {
 
         Log.d(LOGTAG, "activity start success");
         */
+
 
     }
 
@@ -133,6 +138,43 @@ public class UiAutomatorTest {
         UiObject back = mDevice.findObject(backSelector);
         back.click();
 
+        assertTrue(checkReturnToDiscovery());
+    }
+
+    @Test
+    public void discoveryChartMoreActionTest() throws UiObjectNotFoundException {
+        UiObject chartTab = mDevice.findObject(new UiSelector()
+                .text("CHART")
+                .className("android.widget.TextView"));
+
+        assertTrue(chartTab.exists());
+        chartTab.click();
+
+        UiObject layoutRating = mDevice.findObject(new UiSelector()
+                .resourceId("com.skysoft.kkbox.android:id/layout_rating"));
+
+        assertTrue(layoutRating.exists());
+
+        UiObject moreAction = layoutRating.getChild(new UiSelector().index(2)
+                                .resourceId("com.skysoft.kkbox.android:id/button_overflow"));
+
+        assertTrue(moreAction.exists());
+        moreAction.click();
+
+        UiObject listView = mDevice.findObject(new UiSelector().className("android.widget.ListView"));
+        assertTrue(listView.exists());
+        //Log.d(LOGTAG, String.valueOf(listView.getChildCount()));
+        assertEquals(2,listView.getChildCount());
+        assertEquals("Add to My Library", listView.getChild(new UiSelector().index(0))
+                .getChild(new UiSelector().index(0))
+                .getChild(new UiSelector().index(0))
+                .getText());
+        assertEquals("Share", listView.getChild(new UiSelector().index(1))
+                .getChild(new UiSelector().index(0))
+                .getChild(new UiSelector().index(0))
+                .getText());
+        SystemClock.sleep(3000);
+        mDevice.pressBack();
         assertTrue(checkReturnToDiscovery());
     }
 
